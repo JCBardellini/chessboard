@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+    ;
+}
+header {
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 10px 0;
+    font-family: "Josefin Slab";
+}
+footer {
+    text-align: center;
+    background-color: antiquewhite;
+}
+#container {
+    height: 700px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#chessboard {
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+}
+.white {
+    background-color: whitesmoke;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+}
+.black {
+    background-color: darkgray;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+}
+#chessboard img {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#rowOne {
+    display: flex;
+}
+#rowTwo {
+    display: flex;
+}
+#rowThree {
+    display: flex;
+}
+#rowFour {
+    display: flex;
+}
+#rowFive { 
+    display: flex;
+}
+#rowSix {
+    display: flex;
+}
+#rowSeven {
+    display: flex;
+}
+#rowEight {
+    display: flex;
+}
